@@ -1,2 +1,0 @@
-var User = "User"
-User
