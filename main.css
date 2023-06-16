@@ -1,0 +1,39 @@
+body {
+background-color: White;
+background-image: linear-gradient(FloralWhite, CornflowerBlue, GreenYellow);
+font-family: Arial;
+}
+
+h1 {
+font-size: 90;
+text-align: Center;
+}
+
+div {
+text-align: Center;
+}
+
+#paragraph {
+font-size: 55;
+padding-bottom: 50;
+flex-grow: 50;
+}
+
+#paragraph2 {
+font-size: 55;
+padding-bottom: 50;
+flex-grow: 50;
+text-align: Center;
+}
+
+#dropdown {
+display: block;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+
+.headers {
+font-size: 95;
+text-align: Center;
+}
