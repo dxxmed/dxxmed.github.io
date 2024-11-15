@@ -1,0 +1,52 @@
+:root {
+	--nice-blue: CornflowerBlue;
+}
+body {
+	font-family: Helvetica;
+	overflow-y: hidden;
+	background-color: black;
+	color: white;
+	font-size: 70px;
+	text-shadow: 3px 3px black;
+}
+a {
+	text-decoration: none;
+	text-shadow: none;
+	color: var(--nice-blue);
+}
+#introContent {
+	display: flex;
+	padding: 15px;
+	background-color: #1c1b1a;
+}
+#introContent h1 {
+	font-size: 100px;
+}
+#parallaxContainer {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 10px;
+}
+#backgroundOne {
+	position: absolute;
+	z-index: -1;
+	width: 100vw;
+	height: 300vh;
+	object-fit: cover;
+	transform: translateZ(-10px) scale(2);
+}
+#backgroundTwo {
+	position: absolute;
+	z-index: -1;
+	width: 100vw;
+	height: 300vh;
+	top: 300vh;
+	object-fit: cover;
+	transform: translateZ(-10px) scale(2);
+}
+.buffer {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+}
